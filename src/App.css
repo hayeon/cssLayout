@@ -1,20 +1,14 @@
-.wrapper {
-  display: flex;
-  justify-content:space-around;
-  height: 50vh;
-  flex-direction: row-reverse;
-  flex-wrap: wrap-reverse;
-  align-content: space-between;
+/* App.css */
+.father {
+  display: grid;
 }
 
-.box {
-  width: 200px;
+.child{
+  width: 30%;
   height: 200px;
   background-color: orange;
   color: white;
   font-size: 30px;
-  justify-content: center;
-  align-items: center;
-  display: flex;
 }
+
 
