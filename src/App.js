@@ -3,12 +3,11 @@ import "./App.css";
 
 function App() {
   return (
-      <div className="father">
-        <div className="child">1</div>
-        <div className="child">2</div>
-        <div className="child">3</div>
-        <div className="child">4</div>
-        <div className="child">5</div>
+      <div className="grid">
+        <div className="header"></div>
+        <div className="content"></div>
+        <div className="nav"></div>
+        <div className="footer"></div>
       </div>
   );
 }
