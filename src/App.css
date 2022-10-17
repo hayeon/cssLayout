@@ -10,7 +10,10 @@
   justify-content: center;
   align-content: center;
 }
-.header {
+.header { 
+  background-color: #2ecc71;
+}
+.body { 
   background-color: #2ecc71;
 }
 .content {
