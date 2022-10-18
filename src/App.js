@@ -3,25 +3,14 @@ import "./App.css";
 
 function App() {
   return (
-      <div className="grid">
-        <div className="header">헤더</div>
-        <div className="content">콘텐츠</div>
-        <div className="nav">네비</div>
-        <div className="footer">발</div>
-        <div className="header">헤더</div>
-        <div className="content">콘텐츠</div>
-        <div className="nav">네비</div>
-        <div className="footer">발</div>
-        <div className="header">헤더</div>
-        <div className="content">콘텐츠</div>
-        <div className="nav">네비</div>
-        <div className="footer">발</div>
-        <div className="header">헤더</div>
-        <div className="content">콘텐츠</div>
-        <div className="nav">네비</div>
-        <div className="footer">발</div>
-        
-      </div>
+    <div className="grid"> 
+      <div class="item">아름다운 이 땅에 금수 강산에</div>
+      <div class="item">단군할아버지가 터잡으시고</div>
+      <div class="item">아름다운 이 땅에 금수 강산에</div>
+      <div class="item">단군할아버지가 터잡으시고</div>
+      <div class="item">아름다운 이 땅에 금수 강산에</div>
+      <div class="item">단군할아버지가 터잡으시고</div>
+    </div>
   );
 }
 

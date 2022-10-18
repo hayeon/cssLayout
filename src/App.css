@@ -3,26 +3,17 @@
   background-color: black;
   color: white;
   display: grid;
-  height: 100vh;
   gap: 5px;
-  grid-template-columns: repeat(4, 100px);
-  grid-template-rows: repeat(4, 100px);
-  justify-content: center;
-  align-content: center;
+  grid-template-columns: repeat(5, minmax(max-content, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(100px, 5fr));
+  grid-auto-rows: 100px;
+  grid-auto-flow: row;
 }
-.header { 
+/*홀수*/
+.item:nth-child(odd) { 
   background-color: #2ecc71;
 }
-.body { 
-  background-color: #2ecc71;
-}
-.content {
+/*짝수*/
+.item:nth-child(even) {
   background-color: #3498db;
 }
-.nav {
-  background-color: #8e44ad;
-}
-.footer {
-  background-color: #f39c12;
-}
-
