@@ -17,3 +17,12 @@
 .item:nth-child(even) {
   background-color: #3498db;
 }
+#garden {
+  display: grid;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+  grid-column: 1;
+  grid-row: 1;
+}
