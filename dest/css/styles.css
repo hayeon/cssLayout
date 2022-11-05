@@ -1,1 +1,1 @@
-@charset "UTF-8";a{text-decoration:none;color:#00f}
+body{padding-left:140px;padding-right:140px;background-color:#dcdad7;display:flex}header,header nav ul{display:flex;font-size:10px}header,header nav{width:100%;align-items:center}header{position:fixed;height:150px;background-color:#dcdad7;top:0}header nav{display:flex;justify-content:space-between}header nav ul{text-transform:uppercase}header nav ul li{list-style:none}header nav ul:first-child li{margin-right:60px}maincover{justify-content:center}maincover,newPolish,secondcover{display:flex}
