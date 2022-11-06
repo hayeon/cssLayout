@@ -1,18 +1,24 @@
+@import "_variables";
+@import "reset";
 body {
   padding-left: 140px;
-  padding-right: 140px;
-  background-color: rgb(220, 218, 215);
+  background-color: $bgcolor;
   display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
 header {
   position: fixed;
   display: flex;
   height: 150px;
+  padding: 0 140px;
   font-size: 10px;
-  background-color: rgb(220, 218, 215);
+  background-color: $bgcolor;
   top: 0;
+  left: 0;
   width: 100%;
   align-items: center;
+  background-color: transparent;
   nav {
     width: 80%;
     width: 100%;
@@ -28,21 +34,9 @@ header {
       }
       &:first-child { //NAIL STUDIOSHOP PRODUCT
         li {
-          margin-right: 60px;
+          margin-right: 10px;
         }
       }
     }
   }
-}
-
-maincover {
-  display: flex;
-  justify-content: center;
-}
-
-secondcover {
-  display: flex;
-}
-newPolish {
-  display: flex;
 }
